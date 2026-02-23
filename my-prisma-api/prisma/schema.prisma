@@ -1,10 +1,11 @@
 generator client {
   provider = "prisma-client-js"
+  output = "../generated/prisma" 
 }
 
 datasource db {
   provider = "postgresql"
-  url      = env("DATABASE_URL")
+  // ลบบรรทัด url = env("DATABASE_URL") ออกแล้ว เพื่อให้รองรับ Prisma 7
 }
 
 model User { // กำหนดโมเดลชื่อ User ซึ่งจะถูกแมปกับตารางชื่อ User ในฐานข้อมูล
