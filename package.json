@@ -1,5 +1,34 @@
 {
   "devDependencies": {
     "@types/node": "^25.3.0"
-  }
+  },
+  "name": "ce385",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@prisma/adapter-pg": "^7.6.0",
+    "@prisma/client": "^7.6.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "typescript": "^6.0.2",
+    "undici-types": "^7.18.2",
+    "zod": "^4.3.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wisraut/CE385.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wisraut/CE385/issues"
+  },
+  "homepage": "https://github.com/wisraut/CE385#readme"
 }
